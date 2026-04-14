@@ -1,0 +1,16 @@
+{
+  "id": "d5417d1f-8942-4207-887c-0766a4983aab",
+  "name": "attack 22",
+  "type": "attack",
+  "ip": "10.0.2.6",
+  "ip_private": "192.168.100.229",
+  "ip_floating": "10.0.2.6",
+  "status": "ACTIVE",
+  "tools": {
+    "nmap": "installed"
+  },
+  "position": {
+    "x": 400,
+    "y": 150
+  }
+}

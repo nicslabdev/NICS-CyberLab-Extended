@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CiberIA Lab</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <h1>CiberIA Lab</h1>
+      <p>Training, evaluation, CSV prediction, PCAP to CSV extraction, and visible classification results.</p>
+    </header>
+
+    <section class="card">
+      <h2>Status</h2>
+      <div class="row">
+        <button id="btn-health">Health check</button>
+        <button id="btn-status">Load status</button>
+      </div>
+      <pre id="status-output"></pre>
+    </section>
+
+    <section class="card">
+      <h2>Training and evaluation</h2>
+      <div class="row">
+        <label for="dataset-select">Dataset</label>
+        <select id="dataset-select">
+          <option value="2017">2017</option>
+          <option value="2018">2018</option>
+          <option value="unsw">unsw</option>
+        </select>
+      </div>
+      <div class="row">
+        <button id="btn-train">Train model and activate</button>
+        <button id="btn-evaluate">Evaluate active model</button>
+        <button id="btn-export-sample">Export real sample CSV</button>
+      </div>
+      <pre id="train-output"></pre>
+      <div id="metrics-container"></div>
+    </section>
+
+    <section class="card">
+      <h2>Predict from CSV</h2>
+      <input type="file" id="csv-file" accept=".csv" />
+      <div class="row">
+        <button id="btn-predict-csv">Run CSV prediction</button>
+      </div>
+      <pre id="csv-output"></pre>
+      <div id="csv-summary"></div>
+      <div id="csv-results"></div>
+    </section>
+
+    <section class="card">
+      <h2>Generate CSV from PCAP</h2>
+      <input type="file" id="pcap-file-extract" accept=".pcap,.pcapng" />
+      <div class="row">
+        <button id="btn-extract-pcap">Generate CSV from PCAP</button>
+      </div>
+      <pre id="pcap-extract-output"></pre>
+      <div id="pcap-preview"></div>
+    </section>
+
+    <section class="card">
+      <h2>Predict directly from PCAP</h2>
+      <input type="file" id="pcap-file-predict" accept=".pcap,.pcapng" />
+      <div class="row">
+        <button id="btn-predict-pcap">Run PCAP prediction</button>
+      </div>
+      <pre id="pcap-predict-output"></pre>
+      <div id="pcap-summary"></div>
+      <div id="pcap-results"></div>
+    </section>
+  </div>
+
+  <script src="../static/main.js"></script>
+</body>
+</html>

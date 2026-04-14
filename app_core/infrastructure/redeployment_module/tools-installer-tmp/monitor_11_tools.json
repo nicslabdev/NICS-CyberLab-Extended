@@ -1,0 +1,16 @@
+{
+  "id": "cf287e30-613f-4644-863d-63ed20b3b58b",
+  "name": "monitor 11",
+  "type": "monitor",
+  "ip": "10.0.2.5",
+  "ip_private": "192.168.100.153",
+  "ip_floating": "10.0.2.5",
+  "status": "ACTIVE",
+  "tools": {
+    "mbpoll": "installed"
+  },
+  "position": {
+    "x": 600,
+    "y": 150
+  }
+}

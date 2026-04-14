@@ -1,0 +1,20 @@
+{
+    "module": "etc_lab",
+    "installed": false,
+    "installing": false,
+    "running": false,
+    "last_install_at": null,
+    "last_start_at": null,
+    "repo_dir": "/home/younes/integracion_packet_level_etc/packet-level-etc",
+    "dashboard_url": "http://127.0.0.1:8050/",
+    "dataset_name": "nics_etc",
+    "model_name": "randomforest",
+    "message": "ETC module not installed",
+    "pid": null,
+    "artifacts": {
+        "model": "/home/younes/integracion_packet_level_etc/packet-level-etc/models/randomforest_nics_etc_N100_BIT8.joblib",
+        "scaler": "/home/younes/integracion_packet_level_etc/packet-level-etc/models/scaler_nics_etc_N100_BIT8.joblib",
+        "encoder": "/home/younes/integracion_packet_level_etc/packet-level-etc/models/le_nics_etc_N100_BIT8.joblib",
+        "config": "/home/younes/integracion_packet_level_etc/packet-level-etc/models/randomforest_nics_etc_N100_BIT8.json"
+    }
+}

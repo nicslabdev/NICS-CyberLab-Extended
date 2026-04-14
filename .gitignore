@@ -1,0 +1,101 @@
+tf_out/
+last_deployment.pid
+admin-openrc.sh
+# === Pesado / binario ===
+img/
+initial/
+
+# === Logs y artefactos ===
+*.log
+*.pcap
+*.qcow2
+*.img
+*.tar
+*.zip
+
+# === Python ===
+__pycache__/
+*.pyc
+.venv/
+runs/
+wget-log
+*.log
+# === Terraform / OpenStack ===
+.terraform/
+*.tfstate*
+clouds.yaml
+
+# === IA / modelos ===
+models/
+*.gguf
+
+# === Temporales ===
+# tools-installer-tmp/
+
+# ========================
+# Entornos virtuales
+# ========================
+venv/
+*openstack_venv/
+*.venv/
+
+.venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# ========================
+# Logs
+# ========================
+*.log
+
+*.out
+*.err
+
+# ========================
+# JSON que NO quiero subir
+# (por ejemplo, ficheros grandes o sensibles)
+# ========================
+# Ignora todos los JSON por defecto:
+# *.json
+
+# PERO si quieres mantener algunos en el repo,
+# los vuelves a permitir con "!" (quita o adapta estas líneas):
+
+
+# ========================
+# Otros directorios temporales
+# ========================
+.cache/
+.tmp/
+temp/
+tmp/
+.instance/
+dist/
+build/
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ========================
+
+
+
+# Sistema
+# ========================
+.DS_Store
+Thumbs.db
+
+
+# Todo lo que haya dentro de tools-installer-tmp se ignora
+tools-installer-tmp/*
+# excepto el marcador para mantener el directorio en el repo
+!tools-installer-tmp/.gitkeep

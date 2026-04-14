@@ -1,0 +1,16 @@
+{
+  "id": "1c1247ae-cac9-4cef-ba2e-1ad7177ffa4d",
+  "name": "victim 33",
+  "type": "victim",
+  "ip": "10.0.2.39",
+  "ip_private": "192.168.100.175",
+  "ip_floating": "10.0.2.39",
+  "status": "ACTIVE",
+  "tools": {
+    "nmap": "installed"
+  },
+  "position": {
+    "x": 200,
+    "y": 150
+  }
+}
